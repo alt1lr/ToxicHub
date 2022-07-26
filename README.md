@@ -1,16 +1,5 @@
-local notifications = loadstring(game:HttpGet(("https://raw.githubusercontent.com/AbstractPoo/Main/main/Notifications.lua"),true))()
-notifications:notify{
-    Title = "Welcome",
-    Description = "Fire Break",
-    Accept = {
-        Text = "Ok !"
-    },
-    Length = 10
-}
-wait(2)
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Fire Break", "BloodTheme")
-
 local Tab1 = Window:NewTab("Credits")
 local Tab1Section = Tab1:NewSection("Thank For Using Fire Break")
 
