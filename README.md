@@ -1,7 +1,7 @@
 local notifications = loadstring(game:HttpGet(("https://raw.githubusercontent.com/AbstractPoo/Main/main/Notifications.lua"),true))()
 notifications:notify{
     Title = "Welcome",
-    Description = "Toxic Hub!",
+    Description = "Fire Break",
     Accept = {
         Text = "Ok !"
     },
